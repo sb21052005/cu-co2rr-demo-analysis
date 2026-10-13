@@ -1,0 +1,28 @@
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/mace/calculators/mace.py:226: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/sanjeet/miniconda3/envs/cwola/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+device = cuda
+Using Materials Project MACE for MACECalculator with /home/sanjeet/.cache/mace/20231210mace128L0_energy_epoch249model
+Using float32 for MACECalculator, which is faster but less accurate. Recommended for MD. Use float64 for geometry optimization.
+N_Cu 44
+vertex 0 CN 4
+edge   1 CN 7
+E_NP -144.301 E_CO -14.3827
+SITE_IDENTITY_CHECK
+vertex       site=0 CN0=4 closest=0 CN1=4 same_cu=True same_cn=True Eads0=0.997 Eads1=-1.492 steps=30
+edge         site=1 CN0=7 closest=3 CN1=7 same_cu=False same_cn=True Eads0=2.782 Eads1=-1.440 steps=30
+LIMITS: bulk MACE-MP, frozen Cu, no support, no potential, one small NP.
+CN counts only Cu-Cu neighbors.
